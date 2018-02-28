@@ -1,0 +1,10 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+_Name=Gooroom Battery Plugin
+_Comment=Display the battery levels of your devices and control the brightness of your display
+Icon=battery-plugin
+X-XFCE-Module=battery-plugin
+X-XFCE-Unique=TRUE
+X-XFCE-Internal=FALSE
+X-XFCE-API=@LIBXFCE4PANEL_VERSION_API@

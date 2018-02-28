@@ -1,0 +1,113 @@
+# Korean translations for gooroom-battery-plugin package.
+# Copyright (C) 2016 THE gooroom-battery-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gooroom-battery-plugin package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gooroom-battery-plugin 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 23:13+0900\n"
+"PO-Revision-Date: 2018-02-20 23:13+0900\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Gooroom Battery Plugin"
+msgstr "구름 배터리 플러그인"
+
+msgid "Display the battery levels of your devices and control the brightness of your display"
+msgstr "배터리를 표시하고 밝기를 조절합니다"
+
+msgid "<big><b>Power Management</b></big>"
+msgstr "<big><b>전원관리</b></big>"
+
+msgid "Presentation mode"
+msgstr "프리젠테이션 모드"
+
+msgid "Fully charged"
+msgstr "완충함"
+
+msgid "Unknown time"
+msgstr "알 수 없는 시간"
+
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i 분"
+
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i 시"
+
+#. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
+#. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "시간\t"
+
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "분\t"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Fully charged (%0.0f%%, %s runtime)"
+msgstr "<b>%s %s</b>\n완충함 (%0.0f%%, %s 실행 시간)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Fully charged (%0.0f%%)"
+msgstr "<b>%s %s</b>\n완충함 (%0.0f%%)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Charging (%0.0f%%, %s)"
+msgstr "<b>%s %s</b>\n충전중 (%0.0f%%, %s)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Charging (%0.0f%%)"
+msgstr "<b>%s %s</b>\n충전중 (%0.0f%%)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Discharging (%0.0f%%, %s)"
+msgstr "<b>%s %s</b>\n방전중 (%0.0f%%, %s)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Waiting to discharge (%0.0f%%)"
+msgstr "<b>%s %s</b>\n방전 대기중 (%0.0f%%)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Waiting to charge (%0.0f%%)"
+msgstr "<b>%s %s</b>\n충전 대기중 (%0.0f%%)"
+
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"is empty"
+msgstr "<b>%s %s</b>\n이 비어있음"
+
+#. unknown device state, just display the percentage
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Unknown state"
+msgstr "<b>%s %s</b>\n알 수 없는 상태"

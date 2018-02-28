@@ -1,0 +1,3 @@
+panel-plugin/battery-plugin.desktop.in.in
+panel-plugin/battery-plugin.c
+panel-plugin/xfpm-power-common.c

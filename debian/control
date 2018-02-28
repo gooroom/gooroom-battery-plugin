@@ -1,0 +1,11 @@
+Source: gooroom-battery-plugin
+Section: xfce
+Priority: optional
+Maintainer: Gooroom Maintainers <gooroom@gooroom.kr>
+Build-Depends: debhelper (>= 9), autotools-dev, autoconf, automake, intltool, libtool, xfce4-dev-tools, xfce4-panel-dev, libglib2.0-dev, libgtk2.0-dev, libupower-glib-dev (>= 0.99), libxfconf-0-dev
+Standards-Version: 3.9.6
+
+Package: gooroom-battery-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, upower (>=0.99)
+Description: Xfce4 panel plugin for battery
