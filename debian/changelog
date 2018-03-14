@@ -1,3 +1,9 @@
+gooroom-battery-plugin (0.2.1+grm1u1) unstable; urgency=medium
+
+  * UNRELEASED
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 14 Mar 2018 18:43:45 +0900
+
 gooroom-battery-plugin (0.1.0+grm1u1) unstable; urgency=medium
 
   * Initial Release
