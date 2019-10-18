@@ -1,5 +1,5 @@
 /*
- * * Copyright (C) 2010-2011 Ali <aliov@xfce.org>
+ * Copyright (C) 2010-2011 Ali <aliov@xfce.org>
  *
  * Licensed under the GNU General Public License Version 2
  *
@@ -26,10 +26,8 @@
 #include <upower.h>
 
 #include "xfpm-power-common.h"
-//#include "xfpm-enum-glib.h"
 
 #include "xfpm-icons.h"
-//#include "xfpm-debug.h"
 
 
 /**

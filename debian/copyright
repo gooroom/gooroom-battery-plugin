@@ -1,10 +1,24 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: gooroom-battery-plugin
 Source: http://git.gooroom.kr/gooroom-battery-plugin/
 
 Files: *
-Copyright: 2016 gooroom <gooroom@gooroom.kr>
-License: GPL-2.0+
+Copyright: 2015-2019 Gooroom <gooroom@gooroom.kr>
+License: GPL-2+
+
+Files: panel-plugin/battery-plugin.*
+Copyright: 2014 Eric Koegel <eric@xfce.org>
+           2015-2019 Gooroom <gooroom@gooroom.kr>
+License: GPL-2+
+
+Files: panel-plugin/xfpm-power-common.*
+Copyright: 2010-2011 Ali <aliov@xfce.org>
+License: GPL-2+
+
+Files: panel-plugin/xfpm-icons.h
+Copyright: 2009-2011 Ali <aliov@xfce.org>
+License: GPL-2+
+
+License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or

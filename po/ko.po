@@ -1,43 +1,122 @@
 # Korean translations for gooroom-battery-plugin package.
-# Copyright (C) 2016 THE gooroom-battery-plugin'S COPYRIGHT HOLDER
+# Copyright (C) 2015-2019 THE gooroom-battery-plugin'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gooroom-battery-plugin package.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gooroom-battery-plugin 0.1.0\n"
+"Project-Id-Version: gooroom-battery-plugin 0.2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 23:13+0900\n"
+"POT-Creation-Date: 2019-10-18 16:27+0900\n"
 "PO-Revision-Date: 2018-02-20 23:13+0900\n"
-"Language-Team: Korean\n"
+"Language-Team: Gooroom <gooroom@gooroom.kr>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../panel-plugin/battery-plugin.desktop.in.in.h:1
 msgid "Gooroom Battery Plugin"
 msgstr "구름 배터리 플러그인"
 
-msgid "Display the battery levels of your devices and control the brightness of your display"
+#: ../panel-plugin/battery-plugin.desktop.in.in.h:2
+msgid ""
+"Display the battery levels of your devices and control the brightness of "
+"your display"
 msgstr "배터리를 표시하고 밝기를 조절합니다"
 
+#: ../panel-plugin/battery-plugin.c:675
 msgid "<big><b>Power Management</b></big>"
 msgstr "<big><b>전원관리</b></big>"
 
+#: ../panel-plugin/battery-plugin.c:716
 msgid "Presentation mode"
 msgstr "프리젠테이션 모드"
 
-msgid "Fully charged"
-msgstr "완충함"
+#: ../panel-plugin/xfpm-power-common.c:43
+#: ../panel-plugin/xfpm-power-common.c:66
+msgid "Battery"
+msgstr ""
 
+#: ../panel-plugin/xfpm-power-common.c:45
+msgid "Uninterruptible Power Supply"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:47
+msgid "Line power"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:49
+msgid "Mouse"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:51
+msgid "Keyboard"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:53
+msgid "Monitor"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:55
+msgid "PDA"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:57
+msgid "Phone"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:59
+msgid "Tablet"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:61
+#: ../panel-plugin/xfpm-power-common.c:244
+msgid "Computer"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:63
+#: ../panel-plugin/xfpm-power-common.c:79
+#: ../panel-plugin/xfpm-power-common.c:94
+msgid "Unknown"
+msgstr "알 수 없는 시간"
+
+#: ../panel-plugin/xfpm-power-common.c:81
+msgid "Lithium ion"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:83
+msgid "Lithium polymer"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:85
+msgid "Lithium iron phosphate"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:87
+msgid "Lead acid"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:89
+msgid "Nickel cadmium"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:91
+msgid "Nickel metal hybride"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:112
 msgid "Unknown time"
 msgstr "알 수 없는 시간"
 
+#: ../panel-plugin/xfpm-power-common.c:118
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] "%i 분"
 
+#: ../panel-plugin/xfpm-power-common.c:129
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
@@ -45,69 +124,136 @@ msgstr[0] "%i 시"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#: ../panel-plugin/xfpm-power-common.c:135
 #, c-format
 msgid "%i %s %i %s"
 msgstr "%i %s %i %s"
 
+#: ../panel-plugin/xfpm-power-common.c:136
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "시간\t"
 
+#: ../panel-plugin/xfpm-power-common.c:137
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "분\t"
 
+#: ../panel-plugin/xfpm-power-common.c:280
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Fully charged (%0.0f%%, %s runtime)"
-msgstr "<b>%s %s</b>\n완충함 (%0.0f%%, %s 실행 시간)"
+msgstr ""
+"<b>%s %s</b>\n"
+"완충함 (%0.0f%%, %s 실행 시간)"
 
+#: ../panel-plugin/xfpm-power-common.c:288
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Fully charged (%0.0f%%)"
-msgstr "<b>%s %s</b>\n완충함 (%0.0f%%)"
+msgstr ""
+"<b>%s %s</b>\n"
+"완충함 (%0.0f%%)"
 
+#: ../panel-plugin/xfpm-power-common.c:298
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Charging (%0.0f%%, %s)"
-msgstr "<b>%s %s</b>\n충전중 (%0.0f%%, %s)"
+msgstr ""
+"<b>%s %s</b>\n"
+"충전중 (%0.0f%%, %s)"
 
+#: ../panel-plugin/xfpm-power-common.c:306
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Charging (%0.0f%%)"
-msgstr "<b>%s %s</b>\n충전중 (%0.0f%%)"
+msgstr ""
+"<b>%s %s</b>\n"
+"충전중 (%0.0f%%)"
 
+#: ../panel-plugin/xfpm-power-common.c:316
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Discharging (%0.0f%%, %s)"
-msgstr "<b>%s %s</b>\n방전중 (%0.0f%%, %s)"
+msgstr ""
+"<b>%s %s</b>\n"
+"방전중 (%0.0f%%, %s)"
 
+#: ../panel-plugin/xfpm-power-common.c:324
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"Discharging (%0.0f%%)"
+msgstr ""
+"<b>%s %s</b>\n"
+"방전중 (%0.0f%%, %s)"
+
+#: ../panel-plugin/xfpm-power-common.c:331
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Waiting to discharge (%0.0f%%)"
-msgstr "<b>%s %s</b>\n방전 대기중 (%0.0f%%)"
+msgstr ""
+"<b>%s %s</b>\n"
+"방전 대기중 (%0.0f%%)"
 
+#: ../panel-plugin/xfpm-power-common.c:337
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Waiting to charge (%0.0f%%)"
-msgstr "<b>%s %s</b>\n충전 대기중 (%0.0f%%)"
+msgstr ""
+"<b>%s %s</b>\n"
+"충전 대기중 (%0.0f%%)"
 
+#: ../panel-plugin/xfpm-power-common.c:343
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "is empty"
-msgstr "<b>%s %s</b>\n이 비어있음"
+msgstr ""
+"<b>%s %s</b>\n"
+"이 비어있음"
+
+#. On the 2nd line we want to know if the power cord is plugged
+#. * in or not
+#: ../panel-plugin/xfpm-power-common.c:352
+#, c-format
+msgid ""
+"<b>%s %s</b>\n"
+"%s"
+msgstr ""
+"<b>%s %s</b>\n"
+"이 비어있음"
+
+#: ../panel-plugin/xfpm-power-common.c:353
+msgid "Plugged in"
+msgstr ""
+
+#: ../panel-plugin/xfpm-power-common.c:353
+msgid "Not plugged in"
+msgstr ""
+
+#. Desktop pc with no battery, just display the vendor and model,
+#. * which will probably just be Computer
+#: ../panel-plugin/xfpm-power-common.c:359
+#, c-format
+msgid "<b>%s %s</b>"
+msgstr ""
+"<b>%s %s</b>\n"
+"이 비어있음"
 
 #. unknown device state, just display the percentage
+#: ../panel-plugin/xfpm-power-common.c:364
 #, c-format
 msgid ""
 "<b>%s %s</b>\n"
 "Unknown state"
-msgstr "<b>%s %s</b>\n알 수 없는 상태"
+msgstr ""
+"<b>%s %s</b>\n"
+"알 수 없는 상태"
