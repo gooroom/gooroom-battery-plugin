@@ -1,3 +1,12 @@
+gooroom-battery-plugin (0.2.2+grm1u1) unstable; urgency=medium
+
+  [ user ]
+  * [10845fe4] Update sources regarding copyright
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 31 Oct 2019 12:21:14 +0900
+
 gooroom-battery-plugin (0.2.1+grm1u1) unstable; urgency=medium
 
   * UNRELEASED
