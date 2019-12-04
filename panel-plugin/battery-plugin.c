@@ -41,7 +41,7 @@
 #include <xfconf/xfconf.h>
 
 
-#define PANEL_TRAY_ICON_SIZE        (22)
+#define PANEL_TRAY_ICON_SIZE        (24)
 #define SET_BRIGHTNESS_TIMEOUT      (50)
 #define PANEL_DEFAULT_ICON          ("battery-full-charged")
 #define PANEL_DEFAULT_ICON_SYMBOLIC ("battery-full-charged-symbolic")

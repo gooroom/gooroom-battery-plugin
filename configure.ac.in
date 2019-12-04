@@ -1,7 +1,3 @@
-dnl
-dnl gooroom-battery-plugin - A battery plugin for the Xfce panel
-dnl
-
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
